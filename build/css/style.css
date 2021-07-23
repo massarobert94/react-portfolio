@@ -138,7 +138,7 @@ a:hover {
 /* Title A */
 
 .title-box {
-  margin-bottom: 4rem;
+  margin-bottom: 0rem;
 }
 
 .title-a {
@@ -679,6 +679,7 @@ ABOUT
 }
 
 .skill-mf span {
+  margin-top: -2rem;
   color: #4e4e4e;
 }
 
