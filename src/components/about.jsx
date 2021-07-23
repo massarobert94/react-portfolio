@@ -11,8 +11,8 @@ class About extends React.Component {
         {
           id: "JavaScript_skill",
           content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
+          porcentage: "80%",
+          value: "80"
         },
         { id: "PHP_skill", content: "PHP", porcentage: "20%", value: "20" },
         {
@@ -44,17 +44,17 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "My name is Robert Massa and I am a full-stack Javascript developer. I have experience with SEO, content writing, and web development. I try to blend all of these skills together so that the sites I design and develop drive results and conversions. I believe that it's important to design everything with a purpose in mind so that the marketing, development, and SEO goals are all aligned."
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I have a formal education from the University of Massachusetts, Lowell. I received my bachelor's degree in business administration with a focus on finance. I am currently pursuing a second bachelor's degree in computer science, with a focus on web development. When I am not coding, I really enjoy staying active by running, lifting weights, playing basketball, and skiing. I also love to read and love to cook."
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Something that I believe has contributed in a significant way to my character is my prior experience as a line cook. I worked in a variety of restaurant environments, from fine-dining to upscale New American cuisine. Being a line cook really taught me the importance of struggling and grinding to get where I want to be, and how satisfying the hustle can be. It also taught me to be fully accountable and take extreme responsibility of every aspect of my life. The experience also drives me to chase my goals and not relent until I get where I want to be, professionally and personally."
         }
       ]
     };
