@@ -119,10 +119,13 @@ a:hover {
 
 .sect-pt4 {
   padding-top: 4rem;
+
+  background-color: #000000;
+  color: white;
 }
 
 .sect-mt4 {
-  margin-top: 4rem;
+  margin-top: 0rem;
 }
 
 /* Title S */
@@ -165,6 +168,7 @@ a:hover {
 .title-left {
   font-size: 2rem;
   position: relative;
+  color: white;
 }
 
 .title-left:before {
@@ -208,13 +212,14 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #220045;
+  color:#ffffff;
+  box-shadow: 0 0 0 3px #ffffff;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #220045;
-  color: #fff;
+  background-color: #ffffff;
+  color: #220045;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
@@ -666,6 +671,12 @@ ABOUT
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6.0px );
+  -webkit-backdrop-filter: blur( 6.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .about-mf .about-img {
@@ -677,7 +688,7 @@ ABOUT
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 .skill-mf .progress {
@@ -700,7 +711,13 @@ PORTFOLIO
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #000000;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6.0px );
+  -webkit-backdrop-filter: blur( 6.0px );
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .work-box:hover img {
@@ -711,6 +728,8 @@ PORTFOLIO
 .work-img {
   display: block;
   overflow: hidden;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
 }
 
 .work-img img {
@@ -722,17 +741,17 @@ PORTFOLIO
 }
 
 .work-content .w-more {
-  color: #4e4e4e;
+  color: #ffffff;
   font-size: .8rem;
 }
 
 .work-content .w-more .w-ctegory {
-  color: #220045;
+  color: #ffffff;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #220045;
+  color: #ffffff;
   float: right;
 }
 
@@ -746,6 +765,7 @@ PORTFOLIO
 
 .w-title {
   font-size: 1.2rem;
+  color: white;
 }
 
 /*
@@ -819,6 +839,16 @@ footer .copyright {
 /*
 CONTACT 
 */
+
+#contact.box-shadow-full {
+  background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.0px );
+-webkit-backdrop-filter: blur( 6.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: white;
+}
 
 #sendmessage {
   color: #220045;
