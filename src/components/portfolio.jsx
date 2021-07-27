@@ -43,7 +43,7 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={stock1} data-lightbox="gallery-vmarine">
                   <div className="work-img">
                     <img src={stock1} alt="" style={{objectFit: "cover !important"}} className="img-fluid" />
                   </div>
@@ -65,14 +65,14 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a
+                {/* <a
                   href={stock1}
                   data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
+                  // style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   href={stock2}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
@@ -99,7 +99,7 @@ class Portfolio extends React.Component {
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                </a>
+                </a> */}
               </div>
             </div>
             {/* <div className="col-md-4">
