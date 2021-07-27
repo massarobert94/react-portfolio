@@ -704,6 +704,54 @@ ABOUT
 }
 
 /*
+TICKER 
+*/
+
+.ticker {
+  display: flex;
+}
+
+.ticker-wrap {
+    max-width: 100% !important;
+    overflow: hidden;
+}
+.ticker__list {
+  display: flex;
+  align-items: center;
+  margin-top:20px;
+  animation: ticker 25s infinite linear;
+  max-width: auto !important;
+}
+.ticker:hover .ticker__list {
+  animation-play-state: paused;
+}
+.ticker_item {
+  margin-right: 100px;
+  width: 200px !important;
+}
+
+@-moz-keyframes ticker {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes ticker {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@-o-keyframes ticker {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes ticker {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/*
 PORTFOLIO
 */
 

@@ -49,7 +49,7 @@ class About extends React.Component {
         {
           id: "second-p-about",
           content:
-            "I have a formal education from the University of Massachusetts, Lowell. I received my bachelor's degree in business administration with a focus on finance. I am currently pursuing a second bachelor's degree in computer science, with a focus on web development. When I am not coding, I really enjoy staying active by running, lifting weights, playing basketball, and skiing. I also love to read and love to cook."
+            "I have a formal education from the University of Massachusetts, Lowell. I received my bachelor's degree in business administration with a focus on finance. I am currently pursuing a second bachelor's degree in computer science, with a focus on web development. When I am not coding, I really enjoy staying active by running, lifting weights, playing basketball, and skiing. When I'm not being active, I love challenging myself with a coding task or reading."
         },
         {
           id: "third-p-about",
