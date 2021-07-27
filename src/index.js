@@ -36,7 +36,7 @@ ReactDOM.render(
         <Navbar />
         <Intro />
         <About />
-        {/* <Ticker /> */}
+        <Ticker />
         <Portfolio />
         <Contact />
         <BackToTop />
